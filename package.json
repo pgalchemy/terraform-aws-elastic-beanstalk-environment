@@ -1,6 +1,6 @@
 {
   "name": "terraform-aws-elastic-beanstalk-environment",
-  "version": "0.14.0",
+  "version": "0.14.1",
   "description": "Terraform module to provision an AWS Elastic Beanstalk Environment",
   "main": "main.tf",
   "directories": {
