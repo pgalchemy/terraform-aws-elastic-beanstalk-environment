@@ -1,0 +1,23 @@
+{
+  "name": "terraform-aws-elastic-beanstalk-environment",
+  "version": "0.13.0",
+  "description": "Terraform module to provision an AWS Elastic Beanstalk Environment",
+  "main": "main.tf",
+  "directories": {
+    "doc": "docs",
+    "example": "examples"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pgalchemy/terraform-aws-elastic-beanstalk-environment.git"
+  },
+  "author": "Jeremiah Harlan <jeremiah.harlan@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pgalchemy/terraform-aws-elastic-beanstalk-environment/issues"
+  },
+  "homepage": "https://github.com/pgalchemy/terraform-aws-elastic-beanstalk-environment#readme"
+}
