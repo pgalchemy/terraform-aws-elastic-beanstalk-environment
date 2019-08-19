@@ -87,3 +87,8 @@ output "elb_load_balancers" {
   description = "Elastic Load Balancers in use by this environment."
   value       = "${aws_elastic_beanstalk_environment.default.load_balancers}"
 }
+
+output "ec2_role_arn" {
+  value = "${aws_iam_role.ec2.arn}"
+  description = "The ARN for the EC2 IAM role"
+}
